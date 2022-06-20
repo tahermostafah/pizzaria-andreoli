@@ -1,0 +1,154 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: red;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.caixa-imagem {
+  max-width: 26%;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  border: 2px solid #000000;
+  border-radius: 10px;
+
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+ 
+}
+
+.produto-imagem {
+  padding-top: 10px;
+  max-width: 100%;
+
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+  transition: 2s;
+  transition-timing-function: cubic-bezier(0,1.38,0.94,-0.88);
+  
+}
+
+.produtos li:hover {
+  transition: 0.3s;
+  border: 5px solid #b10303;
+  background-color: green;
+}
+
+.produtos li:active {
+  border-color: #f50606;
+  background-color: #36b603;
+}
+
+footer {
+  text-align: center;
+  background: red;
+  padding: 40px;
+}
+
+.copyright {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  margin: 25px;
+}
+
+.historia{
+  padding-top: 10px;
+  text-align:center;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.titulo-historia{
+  text-decoration: dashed;
+  padding-top: 20px;
+  font-size:  30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: green;
+
+}
+
+.endereco{
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  margin: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formulario{
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contato{
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: green;
+}
+

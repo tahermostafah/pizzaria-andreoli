@@ -100,12 +100,12 @@ nav a:hover {
 
 footer {
   text-align: center;
-  background: red;
-  padding: 40px;
+  background:red;
+  padding: 80px;
 }
 
-.copyright {
-  color: rgb(255, 255, 255);
+.copyrigth {
+  color: rgb(255, 255, 255);;
   font-size: 13px;
   margin: 25px;
 }
